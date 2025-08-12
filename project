@@ -1,1 +1,272 @@
-project.txt
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/4df164ffff.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./pro.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <title>cars</title>
+</head>
+
+<body>
+  <nav>
+    <!-- <input type="checkbox" id="menu-toggle"/>
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </label> -->
+
+    <div class="logo">
+      <a href="#" class="log">
+        <font size="6rem">
+          <i class="bi bi-car-front-fill"></i></i><span>Rolls</span>&nbsp;<span>Royce</span>
+
+        </font>
+      </a>
+    </div>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </label>
+    <ul class="sub-container">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#models">MODELS</a></li>
+      <li><a href="#information">INFORMATION</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+
+<!-- home -->
+
+  <section id="home" class="home">
+    <h2> BUY YOUR FAVOURITE CAR NOW !</h2>
+    <h1> ANY TIME,ANY-WHERE</h1>
+    <button class="start-btn">Start</button>
+  </section>
+
+  <!-- about -->
+
+  <section id="about" class="about">
+    <div class="about-text">
+      <h2>DESIGNED TO <br><span>GO BEYOND PERFORMANCE</span></h2>
+      <p>Revolutionary thinking is at the heart of every car idea, weather its's design inspired by areospace or
+        technologies to natural aspiration.</p>
+      <button>DETAILS</button>
+    </div>
+
+    <div class="about-video">
+      <video autoplay muted loop id="bgvideo">
+        <source src="./v.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <!-- model -->
+  <section id="models" class="models">
+    <h2><i>INSPIRED BY THE COLORS OF NATURE</i></h2>
+    <div class="model-card">
+
+      <div class="model-cards">
+        <div class="image-wrapper">
+          <img src="./car1.jpeg" alt="model 1" />
+        </div>
+        <p>Rolls royce</p>
+      </div>
+
+      <div class="model-cards">
+        <div class="image-wrapper">
+          <img src="./h1.jpg" alt="model 2" />
+        </div>
+        <p>Porsche</p>
+      </div>
+
+      <div class="model-cards">
+        <div class="image-wrapper">
+          <img src="./h2.jpg" alt="model 3" />
+        </div>
+        <p>Thar</p>
+      </div>
+      <div class="model-cards">
+        <div class="image-wrapper">
+          <img src="./h3.jpg" alt="model 4" />
+        </div>
+        <p>Audi</p>
+      </div>
+      <div class="model-cards">
+        <div class="image-wrapper">
+          <img src="./h4.jpg" alt="model 5" />
+        </div>
+        <p>Benz</p>
+      </div>
+      <div class="model-cards">
+        <div class="image-wrapper">
+          <img src="./h5.jpg" alt="model 6" />
+        </div>
+        <p>BMW</p>
+      </div>
+  </section>
+  <section class="hero">
+    <h1>MODELS</h1>
+    <p>Crafted with power, design, and intelligence.</p>
+  </section>
+
+  <section class="cars-grid">
+    <div class="car-card">
+      <img src="Porsche-992-911-Right-Front-Three-Quarter-154381.avif" alt="Porsche 911 Carrera 4 GTS">
+      <h2>Porsche 911 Carrera 4 GTS</h2>
+      <ul>
+        <li><span class="bullet">▸</span> 3.0L Twin-Turbo Flat-6</li>
+        <li><span class="bullet">▸</span> 8-Speed PDK | AWD</li>
+        <li><span class="bullet">▸</span> 0-100 km/h in 3.3s</li>
+      </ul>
+    </div>
+
+    <div class="car-card">
+      <img src="m5-exterior-right-front-three-quarter-2.avif" alt="BMW M5">
+      <h2>BMW M5</h2>
+      <ul>
+        <li><span class="bullet">⚡</span> 4.4L V8 Twin-Turbo</li>
+        <li><span class="bullet">⚡</span> xDrive All-Wheel Drive</li>
+        <li><span class="bullet">⚡</span> 617 hp, Adaptive M Suspension</li>
+      </ul>
+    </div>
+
+    <div class="car-card">
+      <img src="model-y-exterior-right-front-three-quarter-3.avif" alt="Tesla Model Y">
+      <h2>Tesla Model Y</h2>
+      <ul>
+        <li><span class="bullet">•</span> Dual Motor AWD</li>
+        <li><span class="bullet">•</span> Up to 533 km range</li>
+        <li><span class="bullet">•</span> Autopilot & OTA updates</li>
+      </ul>
+    </div>
+
+    <div class="car-card">
+      <img src="amg-gt-63-exterior-right-front-three-quarter.avif" alt="Mercedes-Benz AMG GT 63">
+      <h2>Mercedes-AMG GT 63</h2>
+      <ul>
+        <li><span class="bullet">▸</span> 4.0L V8 Bi-Turbo</li>
+        <li><span class="bullet">▸</span> Drift Mode + 4MATIC+</li>
+        <li><span class="bullet">▸</span> AMG Ride Control+</li>
+      </ul>
+    </div>
+
+    <div class="car-card">
+      <img src="rs-q8-facelift-exterior-right-front-three-quarter.avif" alt="Audi RS Q8 Performance">
+      <h2>Audi RS Q8 Performance</h2>
+      <ul>
+        <li><span class="bullet">⚡</span> 4.0L V8 Twin-Turbo</li>
+        <li><span class="bullet">⚡</span> Quattro AWD System</li>
+        <li><span class="bullet">⚡</span> Nürburgring SUV record holder</li>
+      </ul>
+    </div>
+
+    <div class="car-card">
+      <img src="revuelto-exterior-right-front-three-quarter-2.avif" alt="Lamborghini Revuelto">
+      <h2>Lamborghini Revuelto</h2>
+      <ul>
+        <li><span class="bullet">•</span> 6.5L V12 Plug-in Hybrid</li>
+        <li><span class="bullet">•</span> 1,001 hp total output</li>
+        <li><span class="bullet">•</span> 0-100 in 2.5s, top speed 350+ km/h</li>
+      </ul>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- informations -->
+
+  <section id="information" class="info">
+    <h2>ROLLS ROYCE <br>DESIGN-1</h2>
+    <img src="./c1.jpg" alt="car" class="info-car" />
+
+    <div class="car-stats">
+      <div>
+        <strong>POWER (kw)</strong><br>780 CV (574 kW) <br> 8500 rm
+      </div>
+      <div>
+        <strong>MAX SPEED</strong><br>355 km/h
+      </div>
+
+      <div>
+        <strong>0-100 KW/H</strong><br>2.8-2.9S
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer>
+
+    <section id="contact" class="contact">
+      <div class="footer-main">
+        <div class="footer-column">
+          <h4>CONTACT</h4>
+          <ul>
+            <li><a href="#">Find a dealer</a></li>
+            <li><a href="#">Request a Test Driver</a></li>
+            <li><a href="#">careers</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Build your car</a></li>
+            <li><a href="#">Financial services</a></li>
+            <li><a href="#">saftey</a></li>
+            <li><a href="#">Used car</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Experience</h4>
+          <ul>
+            <li><a href="#">Car Group</a></li>
+            <li><a href="#">Excellent club</a></li>
+            <li><a href="#">Motorsport</a></li>
+            <li><a href="#">Charging</a></li>
+          </ul>
+        </div>
+
+
+        <div class="footer-column">
+          <h4>legeal</h4>
+          <ul>
+            <li><a href="#">Legeal Disclaimer</a></li>
+            <li><a href="#">privacy Policy</a></li>
+
+          </ul>
+        </div>
+
+
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"> <i class="bi bi-instagram"></i></a>
+          <a href="#"> <i class="bi bi-youtube"></i></a>
+          <a href="#"> <i class="bi bi-twitter-x"></i></a>
+          <a href="#"> <i class="bi bi-apple"></i></a>
+        </div>
+      </div>
+
+
+
+      <div class="footer-bottom">
+        <p> car Brand 2025</p>
+        <div class="footer-links">
+          <a href="#">Legeal Disclaimer</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+
+    </section>
+  </footer>
+
+</body>
+
+</html>
